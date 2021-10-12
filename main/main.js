@@ -12,10 +12,19 @@ barCls.onclick = () => {
   bar.style.display = "block";
   document.querySelector(".header nav ul").style.cssText = " top : -400px;";
 };
-const grid = document.querySelectorAll(".use");
+document.querySelector(".header nav").onclick = () => {
+  barCls.style.display = "none";
+  bar.style.display = "block";
+  document.querySelector(".header nav ul").style.cssText = " top : -400px;";
+}
+document.querySelector(".header nav ul").onclick = () => {
+    barCls.style.display = "none";
+  bar.style.display = "block";
+  document.querySelector(".header nav ul").style.cssText = " top : -400px;";
+}
+document.querySelectorAll(".header nav ul a").onclick = () => {
+  barCls.style.display = "none";
+  bar.style.display = "block";
+  document.querySelector(".header nav ul").style.cssText = " top : -400px;";
+}
 
-// var i = 1;
-// grid.forEach((ele)=> {
-//     ele.style.gridArea = `gr${i}`;
-//     i++;
-// });

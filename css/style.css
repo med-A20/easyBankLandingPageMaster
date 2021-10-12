@@ -90,6 +90,7 @@ html {
   color: var(--White);
   font-weight: 700;
   font-size: 1rem;
+  outline: none;
   background-image: var(--linearGrad);
   padding: 10px 30px;
   border-radius: 20px;
@@ -175,7 +176,6 @@ header {
   }
 }
 
-
 /* ========================================== */
 /* ==================================================================== */
 .contentHd {
@@ -255,7 +255,7 @@ header {
   .container {
     min-width: 350px;
   }
-  .land{
+  .land {
     height: 100%;
   }
   .menu {
@@ -313,7 +313,7 @@ header {
   .contentHd {
     width: 100%;
     height: 100%;
-  
+
     flex-flow: column nowrap;
     justify-content: space-between;
   }
